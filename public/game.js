@@ -15,7 +15,12 @@ backgroundImage.onload = () => {
 
 };
 
-const playBtn = document.getElementById('btn-game')
-playBtn.addEventListener('click',()=>{
-    window.location.href = '/game'
+const playBtnDay = document.getElementById('btn-day')
+playBtnDay.addEventListener('click',()=>{
+    window.location.href = '/game-day'
+})
+
+const playBtnNight = document.getElementById('btn-night')
+playBtnNight.addEventListener('click',()=>{
+    window.location.href = '/game-night'
 })
